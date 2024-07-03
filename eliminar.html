@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eliminar cuenta</title>
+	<link rel="stylesheet" type="text/css" href="registrar.css">
+	<script type="text/javascript">
+		function sesion(){
+		alert("se ha borrado tu cuenta");
+	 }
+	</script>
+</head>
+<body>
+	<form name="bajas" action="borrar.php" onsubmit="return sesion()"method="post">
+		<p> Ingresa tu contraseña</p>
+		<input type="password" name="contraseña">
+		<input type="submit" name="borrar" value="borrar" onclick="valida_envia()">
+	</form>
+
+</body>
+</html>

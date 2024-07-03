@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Modifica tu cuenta </title>
+  <link rel="stylesheet" type="text/css" href="registrar.css">
+  <script type="text/javascript">
+		function sesion(){
+		alert("estos son tus datos");
+	 }
+	</script>
+</head>
+<body>
+    <form name="consultas" action="consultar.php" onsubmit="return sesion()" method="post">
+		<p> Ingresa tu nombre:</p>
+		<input type="text" name="nombre">
+		<input type="submit" name="consulta" value="consultar" onclick="valida_envia()">
+   </form>
+
+</body>
+</html>
